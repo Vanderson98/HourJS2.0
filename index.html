@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Hora atual</title>
+  </head>
+  <body>
+    <h1>Mostrar qual é a hora certa que você está!</h1>
+    <div id="botaoVerificar">
+      <input
+        type="button"
+        value="Verificar horário"
+        onclick="verificarMes()"
+        id="verificarHorario"
+      />
+    </div>
+
+    <!-- Mostrar hora -->
+    <div id="horario">
+      <div id="horasDiv">
+        <h3>Horas:</h3>
+        <h2 id="horas">
+          <span id="hora"> 00 </span>
+          <span id="espaco"> : </span>
+          <span id="minuto"> 00 </span>
+          <span id="espaco"> : </span>
+          <span id="segundo"> 00 </span>
+        </h2>
+      </div>
+
+      <!-- Mostrar ano -->
+      <div id="anoAtual">
+        <h3>Ano atual:</h3>
+        <h2 id="ano">
+          <span id="dia"> 0 </span>
+          <span id="espaco">/</span>
+          <span id="mes"> 0 </span>
+          <span id="espaco">/</span>
+          <span id="anoNum"> 0000 </span>
+        </h2>
+      </div>
+    </div>
+    <div id="copy">
+      <h4>Developed by: &copy; Vanderson</h4>
+    </div>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
